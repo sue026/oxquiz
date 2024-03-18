@@ -1,0 +1,10 @@
+body {background: #CCC;}
+.App {max-width: 800px;min-width: 400px;width: 60%;margin: auto;}
+.App h1 {text-align: center;}
+.quiz_wrap {border: 1px solid #999;padding: 40px;background: #FFF;border-radius: 10px;}
+.quiz_wrap .question {display: flex;align-items: flex-start;margin-bottom: 50px;font-size: 30px;justify-content: center;}
+.quiz_wrap .q_count {margin-right: 10px;font-weight: bold;color: yellowgreen;font-style: italic;}
+.quiz_wrap .answer {display: flex;justify-content: center;gap: 80px;}
+.quiz_wrap .answer button {margin: 0;padding: 0;line-height: 1;background: none;border: none;font-size: 150px;font-weight: bold;cursor: pointer;}
+.quiz_wrap .answer button:first-child {color: hotpink;}
+.quiz_wrap .answer button:last-child {color: dodgerblue}
